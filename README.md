@@ -1,19 +1,36 @@
 # Gemini Api Based SQL Query Retriving Web App
 
-## Steps to Run locally
+## Getting Started
 
-(1) Firstly you need to generate your own Gemini api Key. For this you can visit [here](https://aistudio.google.com/app/apikey) and get your own API key.
+### Pre-requisites
+
+Ensure you have Python 3.12 installed on your system. This project also requires a webcam for hand gesture recognition.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+```sh
+git clone https://github.com/Jay-sanjay/Gemini-Api-Based-SQL-Query-Retriving-Web-App
+```
+2. Navigate to the project directory:
+
+```sh
+cd /path/to/Gemini-Api-Based-SQL-Query-Retriving-Web-App
+```
+
+3. Firstly you need to generate your own Gemini api Key. For this you can visit [here](https://aistudio.google.com/app/apikey) and get your own API key.
 Now paste this key [here](https://github.com/Jay-sanjay/Gemini-Api-Based-SQL-Query-Retriving-Web-App/blob/d55746af68b42ac8b8db81ed66f658f2e0a459b8/.env#L1)
 
-(2) Next Create a virtual environment in the project Folder
+4. Next Create a virtual environment in the project Folder
 ```ssh
 python3 -m venv venv
 ```
-(3) Then activate the virtual environment
+5. Then activate the virtual environment
 ```ssh
 source venv/bin/activate
 ```
-(4) Finally run the App
+6. Finally run the App
 ```ssh
 streamlit run app.py
 ```
