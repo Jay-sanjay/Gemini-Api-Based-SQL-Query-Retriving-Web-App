@@ -30,6 +30,7 @@ python3 -m venv venv
 ```ssh
 source venv/bin/activate
 ```
+
 6. Install all dependencies
 ```
 pip install -r requirements.txt
@@ -39,3 +40,5 @@ pip install -r requirements.txt
 ```ssh
 streamlit run app.py
 ```
+A web-site of this type will open in your web-browser
+![image](https://github.com/Jay-sanjay/Gemini-Api-Based-SQL-Query-Retriving-Web-App/assets/134289328/4a4e4b5e-578d-4df7-ad62-1537cdb1123e)
