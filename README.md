@@ -30,7 +30,12 @@ python3 -m venv venv
 ```ssh
 source venv/bin/activate
 ```
-6. Finally run the App
+6. Install all dependencies
+```
+pip install -r requirements.txt
+```
+
+7. Finally run the App
 ```ssh
 streamlit run app.py
 ```
